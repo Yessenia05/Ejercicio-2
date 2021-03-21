@@ -1,55 +1,76 @@
 
-
-body {
-    background: -webkit-linear-gradient(#f0fcbc,rgb(245, 232, 54));
+body { background: rgb(240, 240, 158);
+    margin: 0;
+    padding: 0;
 }
 
 .container{
     width: 100%;   
     padding-top: 100px;
-    border-top: 70px  solid yellow;
-    height: 500px;
+    border-top: 100px  solid yellow;
+    margin-top: 25px;
 }
-
-.container123{
-    display: flex;
-    margin-top: -155px;
-}
-    
-.container123 .container1, .container2, .container3{
-    border: rgb(49, 33, 33) 2px solid;
-    width: 50%;
+.container1{
+    height: 60vh;
+    background-image: url(¿como-y-por-que-se-mueven-los-girasoles---1_768.jpg);
+    border: none;
+    width: 30%;
     margin: 7px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     box-sizing: border-box;
-
+    margin-left: 55px;
+}
+.container2{
+    height: 60vh;
+    border:none;
+    width: 30%;
+    margin: 7px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    box-sizing: border-box;
+    background-image: url(¿como-y-por-que-se-mueven-los-girasoles---1_768.jpg);
+}
+.container3{
+    height: 60vh;
+    border:none;
+    width: 30%;
+    margin: 7px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    box-sizing: border-box;
+    background-image: url(¿como-y-por-que-se-mueven-los-girasoles---1_768.jpg);
 }
 
+.container123{
+    display: flex;
+    margin-top: -155px; 
+    
+}
+h2{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(54, 94, 46);
+}
 .container figure img{
     width: 100%; 
-    margin: 20px;
-}
- div text{
-    margin: 10px 10px 10px 10px;
-    justify-content: center;
-
-}
-    
- figure img{
-    width: 100%;
-    height: 400px
 }
 
-.container123  button {
+button {
     width: 100%;
-    padding: 25px 50px;
-    cursor: pointer;
-    color: black;
+    margin-top: 300px;
+    padding: 10px;
+    color: rgb(54, 94, 46);
+    font-weight: bold;
+    background: rgb(161, 161, 54);
+    border: none;
+    border-radius: 5px;
+}
+button:hover{
+    background: rgb(199, 226, 154);
+    color:rgb(161, 161, 54) ;
+}
 
-}
-.container1 button{
-    width: 100%;
-    padding: 25px 25px;
-}
 
